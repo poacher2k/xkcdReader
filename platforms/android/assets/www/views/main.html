@@ -1,0 +1,4 @@
+<h1 ng-hide="isLoading">{{xkcd.title}}</h1>
+<p ng-hide="isLoading">Comic <strong>{{xkcd.num}}</strong>, released at {{xkcd.day}}.{{xkcd.month}}.{{xkcd.year}}</p>
+<img class="image-container" ng-src="{{xkcd.img}}" alt="{{xkcd.alt}}" ng-swipe-left="getNextComic()" ng-swipe-right="getPreviousComic()" ng-click="showAlt()" ng-hide="isLoading">
+<img class="ajax-loader" src="img/ajax-loader.gif" ng-show="isLoading">

@@ -1,0 +1,9 @@
+.image-container{
+	width: 100%;
+}
+
+.ajax-loader{
+	width: 24px;
+	height: 24px;
+	margin: 0 auto;
+}

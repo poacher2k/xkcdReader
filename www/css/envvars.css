@@ -1,0 +1,114 @@
+a {
+	text-decoration: none;
+}
+
+button {
+	border:none;
+	color: #FFF;
+}
+::-webkit-input-placeholder {
+   color: #AAFCEF;
+}
+:focus {
+	outline:0;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.inline {
+	display: inline-block;
+}
+	.top {
+		vertical-align: top;
+	}
+	.middle {
+		vertical-align: middle;
+	}
+	.bottom {
+		vertical-align: bottom;
+	}
+.indent {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* TEXT */
+.bold {
+	font-family: "bariol bold";
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+.text-center {
+	text-align: center;
+}
+
+/* RATIO */
+.ratio-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.keep-ratio:before {
+	content:"";
+	display: block;
+}
+.ratio100 {
+	padding-top: 100%;
+}
+.ratio50 {
+	padding-top: 50%;
+}
+.ratio66 {
+	padding-top: 66%;
+}
+
+/* ICONS */
+.ico-category-small {
+	width: 20px;
+	height: 20px;
+	background-color: grey;
+	display: inline-block;
+}
+.ico-category-medium {
+	width: 30px;
+	height: 30px;
+	background-color: grey;
+	display: inline-block;
+	background: url('../img/ico-medium-categories.png') no-repeat;
+}
+
+.ico-medium-movies{
+	background-position: 0;
+}
+
+.ico-challenge-medium {
+	width: 25px;
+	height: 25px;
+	background-color: grey;
+	display: inline-block;
+	background: url('../img/ico-medium-challenge.png') no-repeat;
+	background-size: 100%;
+}
+/* COLORS */
+.bg-orange {
+	background-color:#fc6f4d;
+}
+
+/*SCALING*/
+
+.scale-02{
+	-webkit-transform: scale(0.2);
+}
+
+
